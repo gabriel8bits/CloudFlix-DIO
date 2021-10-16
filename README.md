@@ -6,6 +6,7 @@ Bem vindo!
 
 
 
+
 O projeto foi idealizado com base nas aulas da DIO, ministradas pelo professor **Felipe Aguiar** no curso: Recriando a Interface do Netflix.
 
 O projeto tem como ideia um streaming de jogos. Inspirado nos atuais serviços de streaming como o Stadia (Press F), XCloud e GForce Now.
