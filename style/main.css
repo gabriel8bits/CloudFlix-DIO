@@ -1,0 +1,157 @@
+:root{
+    --preta: #1C1C1C;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Elementos Base */
+
+body{
+    background: var(--preta);
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+
+header{
+    height: 100%;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header .logo{
+    margin-left: 10px;
+    font-family: 'Verdana', times;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 15px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+.destaque{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin-top: 4%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+
+    text-shadow: 4px 4px black;
+} 
+
+.linha{
+    width: auto;
+    height: auto;
+    max-width: 90%;
+
+    margin-left: 20px;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+}
+
+
+
+
+/* Jogos Principais */
+
+.jogo-principal{
+
+   font-size: 16px; 
+   background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(/img/capa-forza.jpg);
+
+   height: 600px;
+   background-size: cover;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+
+   margin-top: 1%;
+}
+
+.jogo-principal .descricao{
+    color: #b0c8e0;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    margin-left: 5%;
+}
+
+.titulo{
+    text-shadow: 4px 4px black;
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 5%;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+
+    margin-left: 5%;
+    border-radius: 200px;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.jogo-principal .container{
+    width: 70%;
+}
+
+.box-jogo{
+
+    height: auto; 
+    width: auto; 
+    max-width: 282px; 
+    max-height: 395px;
+
+    min-width: 200px;
+    min-height: 395px;
+
+    border-radius: 50px;
+    
+    display: block;
+}
+
+.carrosel-jogo{
+    margin-top: 20px;
+}
